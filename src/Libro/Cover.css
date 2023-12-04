@@ -1,0 +1,85 @@
+/* Cover.css */
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2e052c; /* Color de fondo de la portada */
+  }
+  
+  .book {
+    position: relative;
+    width: 600px; /* Ancho del libro */
+    height: 600px; /* Altura del libro */
+    background-color: #d2b48c; /* Color del libro (parecido al cuero) */
+    border: 5px solid #8b4513; /* Borde del libro (parecido al cuero oscuro) */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra del libro */
+  }
+  
+  .cover-image {
+    width: 100%; /* Ajusta la imagen para cubrir todo el área del libro */
+    height: 100%; /* Ajusta la imagen para cubrir todo el área del libro */
+    object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo su relación de aspecto */
+  }
+  
+  .cover-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para el contenido */
+  }
+  
+  .cover-inner h1 {
+    margin: 0;
+    font-size: 1.5em; /* Tamaño de la fuente del título */
+    color: #8b4513; /* Color del título (parecido al cuero oscuro) */
+  }
+  
+  .cover-inner p {
+    margin: 5px 0;
+    font-size: 1em; /* Tamaño de la fuente del autor */
+    color: #8b4513; /* Color del autor (parecido al cuero oscuro) */
+  }
+
+  /* Estilos de la imagen del autor */
+.author-image {
+    width: 100px; /* Ancho de la imagen del autor */
+    margin-top: 10px; /* Espacio entre el autor y la imagen */
+    border-radius: 15%; /* Forma circular para la imagen */
+  }
+  
+/* Nuevos estilos para el contenido de las páginas */
+.cover-inner .page-content {
+    color: #8b4513; /* Color del texto (parecido al cuero oscuro) */
+    font-size: 1em; /* Tamaño de la fuente del texto */
+    margin-left: 15px;
+  }
+  
+  /* Estilos de navegación */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .navigation button {
+    background-color: #8b4513; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em; /* Tamaño de la fuente del botón */
+  }
+  
+  .navigation button:disabled {
+    background-color: #ccc; /* Color de fondo del botón deshabilitado */
+    color: #666; /* Color del texto del botón deshabilitado */
+    cursor: not-allowed;
+  }

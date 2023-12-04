@@ -1,0 +1,49 @@
+/* Cover.css */
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo de la portada */
+  }
+  
+  .book {
+    position: relative;
+    width: 200px; /* Ancho del libro */
+    height: 300px; /* Altura del libro */
+    background-color: #d2b48c; /* Color del libro (parecido al cuero) */
+    border: 5px solid #8b4513; /* Borde del libro (parecido al cuero oscuro) */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra del libro */
+  }
+  
+  .cover-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para el contenido */
+  }
+  
+  .cover-inner h1 {
+    margin: 0;
+    font-size: 1.5em; /* Tamaño de la fuente del título */
+    color: #8b4513; /* Color del título (parecido al cuero oscuro) */
+  }
+  
+  .cover-inner p {
+    margin: 5px 0;
+    font-size: 1em; /* Tamaño de la fuente del autor */
+    color: #8b4513; /* Color del autor (parecido al cuero oscuro) */
+  }
+  
+  /* Nuevos estilos para el contenido de las páginas */
+  .cover-inner .page-content {
+    color: #8b4513; /* Color del texto (parecido al cuero oscuro) */
+    font-size: 1em; /* Tamaño de la fuente del texto */
+  }
+  
