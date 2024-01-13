@@ -1,15 +1,15 @@
 // Cover.js
 import React from "react";
 import "./Cover.css";
-import tuImagen from '../Libro/images/Imagen de WhatsApp 2023-12-04 a las 15.29.45_d168f3bd.jpg'; 
+import tuImagen from '../Libro/images/6207a57a26ab99000460a363.png'; 
 const Cover = () => {
   return (
     <div className="cover">
       <div className="book">
  
         <div className="cover-inner">
-          <h1>Noviembre</h1>
-          <p>Autor: Tu rolito ❤️‍🩹 </p>
+          <h1>Nuevo Año</h1>
+          <p>Tu novio ❤️‍🩹 </p>
           <img
             src={tuImagen}
             alt="Imagen del autor"

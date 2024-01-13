@@ -4,8 +4,11 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #2e052c; /* Color de fondo de la portada */
-  }
+    background: rgb(32,121,193);
+    background: -moz-linear-gradient(36deg, rgba(32,121,193,1) 0%, rgba(40,0,50,1) 68%);
+    background: -webkit-linear-gradient(36deg, rgba(32,121,193,1) 0%, rgba(40,0,50,1) 68%);
+    background: linear-gradient(36deg, rgba(32,121,193,1) 0%, rgba(40,0,50,1) 68%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2079c1",endColorstr="#280032",GradientType=1);  }
   
   .book {
     position: relative;
@@ -49,7 +52,7 @@
 
   /* Estilos de la imagen del autor */
 .author-image {
-    width: 100px; /* Ancho de la imagen del autor */
+    width: 350px; /* Ancho de la imagen del autor */
     margin-top: 10px; /* Espacio entre el autor y la imagen */
     border-radius: 15%; /* Forma circular para la imagen */
   }

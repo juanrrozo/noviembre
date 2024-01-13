@@ -10,7 +10,7 @@ const Page = ({ content }) => {
       <div className="book">
         <div className="cover-inner" >
           {lines.map((line, index) => (
-            <p key={index} className="page-content">
+            <p key={index} className="page-content" >
               {line}
             </p>
           ))}
